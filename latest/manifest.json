@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.04-1934",
-  "commit": "be66db1",
-  "published": "2026-11-04T22:34:21+00:00",
-  "notes": "g1000-autopilot firmware 1.9: adds step buttons that let the MSFS module follow fast encoder turns.",
+  "release": "v2026.11.04-2017",
+  "commit": "541caa9",
+  "published": "2026-11-04T23:19:23+00:00",
+  "notes": "Installer 1.2.7: installs the MSFS module that turns fast HDG/ALT knob turns into bigger steps (panel firmware 1.9+).",
   "installer": {
-    "version": "1.2.5",
-    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
+    "version": "1.2.7",
+    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.04-2017"
   },
   "xplane_plugin": {
     "version": "0.4.0",
