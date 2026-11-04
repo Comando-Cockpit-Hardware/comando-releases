@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.04-2017",
-  "commit": "541caa9",
-  "published": "2026-11-04T23:19:23+00:00",
-  "notes": "Installer 1.2.7: installs the MSFS module that turns fast HDG/ALT knob turns into bigger steps (panel firmware 1.9+).",
+  "release": "v2026.11.04-2028",
+  "commit": "0f57d63",
+  "published": "2026-11-04T23:30:16+00:00",
+  "notes": "Installer 1.2.8: fixes the PC freezing during MSFS setup in 1.2.7.",
   "installer": {
-    "version": "1.2.7",
-    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.04-2017"
+    "version": "1.2.8",
+    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.04-2028"
   },
   "xplane_plugin": {
     "version": "0.4.0",
