@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.28-2123",
-  "commit": "5b24c91",
-  "published": "2026-10-29T00:23:20+00:00",
-  "notes": "G1000 autopilot firmware 1.8: the fast encoder mode now needs detents within 60 ms of each other (was 500 ms), so only quick spins count as fast.",
+  "release": "v2026.11.04-1934",
+  "commit": "be66db1",
+  "published": "2026-11-04T22:34:21+00:00",
+  "notes": "g1000-autopilot firmware 1.9: adds step buttons that let the MSFS module follow fast encoder turns.",
   "installer": {
     "version": "1.2.5",
     "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
@@ -25,10 +25,10 @@
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.8",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-2123/g1000-autopilot-firmware-1.8.uf2",
-        "sha256": "7ff89a510f733d185f23c91b6581c0de05ee7ff4d99ebde84df70d810ff7d21b",
-        "size": 40960
+        "version": "1.9",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.04-1934/g1000-autopilot-firmware-1.9.uf2",
+        "sha256": "b62fe86d71e4be7be46c19b143018821bb388c237046f15287ab1cf5766d9d3c",
+        "size": 41984
       },
       "xplane_joy": {
         "version": "4",
