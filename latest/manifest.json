@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.05-1235",
-  "commit": "d786de3",
-  "published": "2026-11-05T15:36:40+00:00",
-  "notes": "Installer 1.2.9: the MSFS module reads the HDG/ALT knobs directly, so fast turns work even with a saved MSFS controls profile.",
+  "release": "v2026.11.05-1343",
+  "commit": "bf0da59",
+  "published": "2026-11-05T16:46:31+00:00",
+  "notes": "Installer 1.2.10: the MSFS module now receives the panel's knobs, so fast HDG/ALT turns accelerate in MSFS 2020; the installer shows the MSFS module and profile versions.",
   "installer": {
-    "version": "1.2.9",
-    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.05-1235"
+    "version": "1.2.10",
+    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.05-1343"
   },
   "xplane_plugin": {
     "version": "0.4.0",
