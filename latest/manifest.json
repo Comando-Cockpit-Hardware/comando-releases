@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.04-2028",
-  "commit": "0f57d63",
-  "published": "2026-11-04T23:30:16+00:00",
-  "notes": "Installer 1.2.8: fixes the PC freezing during MSFS setup in 1.2.7.",
+  "release": "v2026.11.05-1235",
+  "commit": "d786de3",
+  "published": "2026-11-05T15:36:40+00:00",
+  "notes": "Installer 1.2.9: the MSFS module reads the HDG/ALT knobs directly, so fast turns work even with a saved MSFS controls profile.",
   "installer": {
-    "version": "1.2.8",
-    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.04-2028"
+    "version": "1.2.9",
+    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.05-1235"
   },
   "xplane_plugin": {
     "version": "0.4.0",
