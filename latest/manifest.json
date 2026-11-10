@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.05-1402",
-  "commit": "eed8ec1",
-  "published": "2026-11-05T17:03:15+00:00",
-  "notes": "Installer 1.2.11 downloads the MSFS module and profile online. MSFS module 0.3.0 handles the panel's buttons and knobs directly, so a previously saved MSFS controls profile no longer gets in the way.",
+  "release": "v2026.11.10-1152",
+  "commit": "987ddcd",
+  "published": "2026-11-10T14:52:09+00:00",
+  "notes": "Product renamed to Comando AP1 (firmware 1.10, X-Plane profile 5, MSFS module 0.3.1, MSFS profile 0.4.1).",
   "installer": {
     "version": "1.2.11",
     "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.05-1402"
@@ -23,32 +23,32 @@
     }
   },
   "msfs_module": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "windows": {
-      "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.05-1402/comando-msfs-module-0.3.0.zip",
-      "sha256": "95376ad45d19ba787b9e881a10ee4cade4f1c7b9fba3fac722c62424426b7995",
-      "size": 18674
+      "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.10-1152/comando-msfs-module-0.3.1.zip",
+      "sha256": "58abe435610e6f29a53649570d7907f65fb82f46e4e684abf4e71879bbe6ac3d",
+      "size": 18662
     }
   },
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.9",
-        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.04-1934/g1000-autopilot-firmware-1.9.uf2",
-        "sha256": "b62fe86d71e4be7be46c19b143018821bb388c237046f15287ab1cf5766d9d3c",
+        "version": "1.10",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.10-1152/g1000-autopilot-firmware-1.10.uf2",
+        "sha256": "1deb35ac0f22a78e5518f06d9705d042db0d59882a7831ed56d8ea58f6dcc157",
         "size": 41984
       },
       "xplane_joy": {
-        "version": "4",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-1750/g1000-autopilot-profile-4.joy",
-        "sha256": "593a1febb9ce6f780afd71b756fa8d9ee84ebec7e243c59d23caf96ab810f114",
-        "size": 3272
+        "version": "5",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.10-1152/g1000-autopilot-profile-5.joy",
+        "sha256": "8669731b878855d9fa34db41070a98dd9455fcf0fcdab4ecfef45f98655227f2",
+        "size": 3240
       },
       "msfs_profile": {
-        "version": "0.4.0",
-        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.05-1402/g1000-autopilot-msfs-profile-0.4.0.zip",
-        "sha256": "d8ae045b9daf875726cd0921eea2fa917135221011296d4af8664a3728d4cd26",
-        "size": 1398
+        "version": "0.4.1",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.10-1152/g1000-autopilot-msfs-profile-0.4.1.zip",
+        "sha256": "2d2de283865afcd974eb46a2d109e297a1c6bb6ba7688e336acde325f99e3c8b",
+        "size": 1369
       }
     }
   }

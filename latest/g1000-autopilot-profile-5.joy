@@ -17,14 +17,14 @@ JOY
 #
 # Profile version, read by the installer to tell an installed copy is out
 # of date - bump it whenever this file changes:
-# comando-version: 4
+# comando-version: 5
 
 OS: Windows
 OS: Linux
 OS: Mac
 
-Name: G1000-style Autopilot Panel
-Display: G1000-style Autopilot Panel
+Name: Comando AP1
+Display: Comando AP1
 # USB VID:PID in decimal, exactly as X-Plane writes it to
 # "X-Plane Joystick Settings.prf" (_joy_unique_id): 0xCAFE = 51966,
 # 0x4005 = 16389.
@@ -74,7 +74,7 @@ Button 21: sim/none/none
 # --- Buttons 22-38: turn counters (nothing to bind) ---
 # Button 22 is held permanently ("counters present"); buttons 23-30 (HDG)
 # and 31-38 (ALT) are each knob's 8-bit turn counter. The plugin reads them
-# every frame to move the bug (firmware 1.3+, plugin 0.4.0+); they are left
+# every frame to move the bug (firmware 1.4+, plugin 0.4.0+); they are left
 # unbound on purpose, since a counter bit toggles as the knob turns and
 # would fire any command assigned to it.
 
