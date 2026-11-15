@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.15-0659",
-  "commit": "b1ac245",
-  "published": "2026-11-15T09:59:12+00:00",
-  "notes": "Improves MSFS heading and altitude encoder responsiveness without changing X-Plane behavior.",
+  "release": "v2026.11.15-0717",
+  "commit": "754c950",
+  "published": "2026-11-15T10:17:13+00:00",
+  "notes": "Fix residual MSFS heading and altitude encoder movement after stopping.",
   "installer": {
     "version": "1.2.13",
     "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.15-0616"
@@ -33,9 +33,9 @@
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.11",
-        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.15-0659/g1000-autopilot-firmware-1.11.uf2",
-        "sha256": "fc54ae538ffd7106a79129afae9ea148d5c4774eca6e047fb8030a2e36174903",
+        "version": "1.12",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.15-0717/g1000-autopilot-firmware-1.12.uf2",
+        "sha256": "aac2ad990ab25138877362ca03a2d054db4cc58780a7858ff2db29129cd24629",
         "size": 41984
       },
       "xplane_joy": {
