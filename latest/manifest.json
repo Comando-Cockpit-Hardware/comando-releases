@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.10-1152",
-  "commit": "987ddcd",
-  "published": "2026-11-10T14:52:09+00:00",
-  "notes": "Product renamed to Comando AP1 (firmware 1.10, X-Plane profile 5, MSFS module 0.3.1, MSFS profile 0.4.1).",
+  "release": "v2026.11.15-0538",
+  "commit": "9adfd03",
+  "published": "2026-11-15T08:39:38+00:00",
+  "notes": "Add AP1 COMANDO as a non-primary MSFS control profile and improve Community folder detection.",
   "installer": {
-    "version": "1.2.11",
-    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.05-1402"
+    "version": "1.2.12",
+    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.15-0538"
   },
   "xplane_plugin": {
     "version": "0.4.0",
@@ -45,10 +45,10 @@
         "size": 3240
       },
       "msfs_profile": {
-        "version": "0.4.1",
-        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.10-1152/g1000-autopilot-msfs-profile-0.4.1.zip",
-        "sha256": "2d2de283865afcd974eb46a2d109e297a1c6bb6ba7688e336acde325f99e3c8b",
-        "size": 1369
+        "version": "0.4.2",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.15-0538/g1000-autopilot-msfs-profile-0.4.2.zip",
+        "sha256": "74f3ed905f57f8e5d270897fc7485bf10f3de43099972dcd7c79dea45603e457",
+        "size": 1384
       }
     }
   }
