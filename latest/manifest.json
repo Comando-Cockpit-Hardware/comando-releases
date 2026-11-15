@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.15-0538",
-  "commit": "9adfd03",
-  "published": "2026-11-15T08:39:38+00:00",
-  "notes": "Add AP1 COMANDO as a non-primary MSFS control profile and improve Community folder detection.",
+  "release": "v2026.11.15-0616",
+  "commit": "9adb62c",
+  "published": "2026-11-15T09:19:03+00:00",
+  "notes": "Update the Windows game-controller name to each panel's current registered product name. The installer now refreshes the per-user joy.cpl display name by VID/PID without changing other controllers.",
   "installer": {
-    "version": "1.2.12",
-    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.15-0538"
+    "version": "1.2.13",
+    "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.15-0616"
   },
   "xplane_plugin": {
     "version": "0.4.0",
