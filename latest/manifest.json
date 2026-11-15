@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.11.15-0616",
-  "commit": "9adb62c",
-  "published": "2026-11-15T09:19:03+00:00",
-  "notes": "Update the Windows game-controller name to each panel's current registered product name. The installer now refreshes the per-user joy.cpl display name by VID/PID without changing other controllers.",
+  "release": "v2026.11.15-0659",
+  "commit": "b1ac245",
+  "published": "2026-11-15T09:59:12+00:00",
+  "notes": "Improves MSFS heading and altitude encoder responsiveness without changing X-Plane behavior.",
   "installer": {
     "version": "1.2.13",
     "page": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/tag/v2026.11.15-0616"
@@ -33,9 +33,9 @@
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.10",
-        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.10-1152/g1000-autopilot-firmware-1.10.uf2",
-        "sha256": "1deb35ac0f22a78e5518f06d9705d042db0d59882a7831ed56d8ea58f6dcc157",
+        "version": "1.11",
+        "url": "https://github.com/Comando-Cockpit-Hardware/comando-releases/releases/download/v2026.11.15-0659/g1000-autopilot-firmware-1.11.uf2",
+        "sha256": "fc54ae538ffd7106a79129afae9ea148d5c4774eca6e047fb8030a2e36174903",
         "size": 41984
       },
       "xplane_joy": {
